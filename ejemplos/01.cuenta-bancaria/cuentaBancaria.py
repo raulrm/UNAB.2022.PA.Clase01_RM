@@ -79,4 +79,4 @@ class CuentaBancaria():
         """_summary_
         """
         for dato in self.movimientos[]:
-            print("Operacion: " + x[1] + " monto: " + str(x[2]) +  " fecha: " + x[3].strftime("%Y-%m-%d %H:%M:%S"))
+            print("Operacion: " + dato[1] + " monto: " + str(dato[2]) +  " fecha: " + dato[3].strftime("%Y-%m-%d %H:%M:%S"))
